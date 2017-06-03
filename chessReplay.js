@@ -17,17 +17,17 @@ for(rowIndex; rowIndex < chessBoardTileLength; ++rowIndex){
 }
 
 var whiteKing = document.createElement('div');
-whiteKing.className = 'whiteKing';
-var whiteQueem = document.createElement('div');
-whiteQueen.className = 'whiteQueen';
+whiteKing.classList.add('piece', 'whiteKing');
+var whiteQueen = document.createElement('div');
+whiteQueen.classList.add('piece', 'whiteQueen');
 var whiteBishop = document.createElement('div');
-whiteBishop.className = 'whiteBishop';
+whiteBishop.classList.add('piece', 'whiteBishop');
 var whiteKnight = document.createElement('div');
-whiteKnight.className = 'whiteKnight';
+whiteKnight.classList.add('piece', 'whiteKnight');
 var whiteRook = document.createElement('div');
-whiteRook.className = 'whiteRook';
+whiteRook.classList.add('piece', 'whiteRook');
 var whitePawn = document.createElement('div');
-whitePawn.className = 'whitePawn';
+whitePawn.classList.add('piece', 'whitePawn');
 
 container.appendChild(chessBoard);
 container.appendChild(whiteKing);
