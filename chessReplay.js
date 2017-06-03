@@ -48,5 +48,125 @@ var startingPeices = {
             column: 'e',
             row: 8
         }
-    }
-}
+    },
+    blackQueen:{
+        color: 'black',
+        type: 'Queen',
+        postion: {
+            column: 'd',
+            row: 8
+        }
+    },
+    blackBishop1:{
+        color: 'black',
+        type: 'Bishop',
+        postion: {
+            column: 'f',
+            row: 8
+        }
+    },
+    blackBishop2:{
+        color: 'black',
+        type: 'Bishop',
+        postion: {
+            column: 'c',
+            row: 8
+        }
+    },
+    blackKnight1:{
+        color: 'black',
+        type: 'Knight',
+        postion: {
+            column: 'g',
+            row: 8
+        }
+    },
+    blackKnight2:{
+        color: 'black',
+        type: 'Knight',
+        postion: {
+            column: 'b',
+            row: 8
+        }
+    },
+    blackRook1:{
+        color: 'black',
+        type: 'Rook',
+        postion: {
+            column: 'h',
+            row: 8
+        }
+    },
+    blackRook2:{
+        color: 'black',
+        type: 'Rook',
+        postion: {
+            column: 'a',
+            row: 8
+        }
+    },
+    blackPawn1:{
+        color: 'black',
+        type: 'Pawn',
+        postion: {
+            column: 'a',
+            row: 7
+        }
+    },
+    blackPawn2:{
+        color: 'black',
+        type: 'Pawn',
+        postion: {
+            column: 'b',
+            row: 7
+        }
+    },
+    blackPawn3:{
+        color: 'black',
+        type: 'Pawn',
+        postion: {
+            column: 'c',
+            row: 7
+        }
+    },
+    blackPawn4:{
+        color: 'black',
+        type: 'Pawn',
+        postion: {
+            column: 'd',
+            row: 7
+        }
+    },
+    blackPawn5:{
+        color: 'black',
+        type: 'Pawn',
+        postion: {
+            column: 'e',
+            row: 7
+        }
+    },
+    blackPawn6:{
+        color: 'black',
+        type: 'Pawn',
+        postion: {
+            column: 'f',
+            row: 7
+        }
+    },
+    blackPawn7:{
+        color: 'black',
+        type: 'Pawn',
+        postion: {
+            column: 'g',
+            row: 7
+        }
+    },
+    blackPawn8:{
+        color: 'black',
+        type: 'Pawn',
+        postion: {
+            column: 'h',
+            row: 7
+        }
+    }    
+};
