@@ -50,3 +50,125 @@ var startingPeices = {
         }
     }
 }
+
+var startingPeices2 = {
+    whiteKing:{
+        color: 'white',
+        type: 'King',
+        postion: {
+            column: 'e',
+            row: 1
+        }
+    },
+     whiteQueen:{
+        color: 'white',
+        type: 'Queen',
+        postion: {
+            column: 'e',
+            row: 1
+        }
+    },
+     whiteKnight1:{
+        color: 'white',
+        type: 'Knight',
+        postion: {
+            column: 'b',
+            row: 1
+        }
+    },
+     whiteKnight2:{
+        color: 'white',
+        type: 'Knight',
+        postion: {
+            column: 'g',
+            row: 1
+        }    
+    },
+     whiteBishop1:{
+        color: 'white',
+        type: 'Bishop',
+        postion: {
+            column: 'c',
+            row: 1
+        }    
+    },
+     whiteBishop2:{
+        color: 'white',
+        type: 'Bishop',
+        postion: {
+            column: 'f',
+            row: 1
+        }    
+    },
+     whiteRook1:{
+        color: 'white',
+        type: 'Rook',
+        postion: {
+            column: 'a',
+            row: 1
+        }
+
+    },
+     whiteRook2:{
+        color: 'white',
+        type: 'Rook',
+        postion: {
+            column: 'h',
+            row: 1
+        }
+    },
+     whitePawn1:{
+        color: 'white',
+        type: 'Pawn',
+        postion: {
+            column: 'a',
+            row: 2
+        }
+        
+     },
+     whitePawn2:{
+        color: 'white',
+        type: 'Pawn',
+        postion: {
+            column: 'b',
+            row: 2
+        }
+        
+     },
+     whitePawn3:{
+        color: 'white',
+        type: 'Pawn',
+        postion: {
+            column: 'c',
+            row: 2
+        }
+        
+     },
+     whitePawn4:{
+        color: 'white',
+        type: 'Pawn',
+        postion: {
+            column: 'd',
+            row: 2
+        }
+        
+     },
+     whitePawn5:{
+        color: 'white',
+        type: 'Pawn',
+        postion: {
+            column: 'e',
+            row: 2
+        }
+        
+     },
+     whitePawn6:{
+        color: 'white',
+        type: 'Pawn',
+        postion: {
+            column: 'h',
+            row: 2
+        }
+        
+     },
+}
