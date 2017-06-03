@@ -25,6 +25,7 @@ body {
 }
 
 .piece {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/540px-Chess_Pieces_Sprite.svg.png');
     background-repeat: no-repeat;
     position:absolute;    
     width:90px;
@@ -34,23 +35,23 @@ body {
 }
 
 .whiteKing {
-    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/540px-Chess_Pieces_Sprite.svg.png') 0 0;
+    background-position: 0 0;
 }
 .whiteQueen {
-    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/540px-Chess_Pieces_Sprite.svg.png') 90 0;
+     background-position: -90px 0;
 }
 .whiteBishop {
-    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/540px-Chess_Pieces_Sprite.svg.png') 180 0;
+     background-position: -180px 0;
 }
 .whiteKnight {
-    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/540px-Chess_Pieces_Sprite.svg.png') 270 0;
+     background-position: -270px 0;
 }
 .whiteRook {
-    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/540px-Chess_Pieces_Sprite.svg.png') 360 0;
+     background-position: -360px 0;
 }
 
 .whitePawn {
-    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/540px-Chess_Pieces_Sprite.svg.png') 450 0;
+     background-position: -450px 0;
 }
 
 
