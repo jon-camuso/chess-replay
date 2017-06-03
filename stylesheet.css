@@ -13,8 +13,8 @@ body {
 }
 
 #chessReplayApp table td{
-    width: 90px;
-    height: 90px;
+    width: 88px;
+    height: 88px;
 }
 
 #chessReplayApp table tr:nth-child(2n+1) td:nth-child(2n+0){
