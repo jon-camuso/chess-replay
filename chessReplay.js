@@ -27,11 +27,24 @@ for(colorIndex; colorIndex < colors.length; ++colorIndex){
         pieceMap[colors[colorIndex] + pieceTypes[pieceIndex]] = {};
     }
 }
-function buildPiece(name){
+function buildPiece(name, boardLocation){
     console.log('building: ', name);
     var piece = document.createElement('div');
     piece.classList.add('piece', name);
+    piece.style.left = boardLocation.x + 'px';
+    piece.style.top = boardLocation.y + 'px';
     return piece;
+}
+
+function convertPositionToLocation(position){
+    var boardLocation = {
+        x:0,
+        y:0
+    };
+    var columnIndex = columnLetters.indexOf(position.column);
+    boardLocation.x = columnIndex * 90;
+    boardLocation.y = (chessBoardTileLength - position.row) * 90;
+    return boardLocation;
 }
 
 container.appendChild(chessBoard);
@@ -288,5 +301,7 @@ var startingPeices = {
 
 for(var key in startingPeices){
     var piece = startingPeices[key];
-    container.appendChild(buildPiece(piece.color + piece.type));
+    console.log(piece);
+    var boardLocation = convertPositionToLocation(piece.postion);
+    container.appendChild(buildPiece(piece.color + piece.type, boardLocation));
 }
