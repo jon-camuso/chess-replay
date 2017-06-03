@@ -190,7 +190,7 @@ var startingPeices = {
         color: 'white',
         type: 'Queen',
         postion: {
-            column: 'e',
+            column: 'd',
             row: 1
         }
     },
@@ -292,8 +292,24 @@ var startingPeices = {
         color: 'white',
         type: 'Pawn',
         postion: {
-            column: 'h',
+            column: 'f',
             row: 2
+        }
+    },
+    whitePawn7:{
+     color: 'white',
+        type: 'Pawn',
+        postion: {
+            column: 'g',
+            row: 2   
+        }
+    },
+    whitePawn8:{
+        color: 'white',
+        type: 'Pawn',
+        postion: {
+            column: 'h',
+            row: 2   
         }
     }
 };
