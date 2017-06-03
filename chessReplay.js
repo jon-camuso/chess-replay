@@ -49,7 +49,6 @@ function convertPositionToLocation(position){
 
 container.appendChild(chessBoard);
 
-
 var startingPeices = {
     blackKing:{
         color: 'black',
