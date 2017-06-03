@@ -16,5 +16,9 @@ for(rowIndex; rowIndex < chessBoardTileLength; ++rowIndex){
     }
 }
 
+var whiteKing = document.createElement('div');
+whiteKing.className = 'whiteKing';
+
 
 container.appendChild(chessBoard);
+container.appendChild(whiteKing);

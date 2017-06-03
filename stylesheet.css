@@ -3,11 +3,11 @@ body {
     padding:0;
 }
 #chessReplayApp {
-    margin:4px;
+    margin:40px;
+    position:relative;
 }
 #chessReplayApp table{
     background-color: #ffce9e;
-    position:relative;
     border-spacing: 0px;
     border-collapse: collapse;
 }
