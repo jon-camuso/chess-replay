@@ -1,9 +1,15 @@
 #chessReplayApp table{
     border: solid 4px #000;
-    
 }
 
 #chessReplayApp table td{
     width: 32px;
     height: 32px;
+}
+
+#chessReplayApp table tr:nth-child(2n+1) td:nth-child(2n+0){
+    background-color: #000;
+}
+#chessReplayApp table tr:nth-child(2n+0) td:nth-child(2n+1){
+    background-color: #000;
 }
