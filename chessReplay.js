@@ -29,5 +29,18 @@ whiteRook.classList.add('piece', 'whiteRook');
 var whitePawn = document.createElement('div');
 whitePawn.classList.add('piece', 'whitePawn');
 
+var blackKing = document.createElement('div');
+blackKing.classList.add('piece', 'blackKing');
+var blackQueen = document.createElement('div');
+blackQueen.classList.add('piece', 'blackQueen');
+var blackBishop = document.createElement('div');
+blackBishop.classList.add('piece', 'blackBishop');
+var blackKnight = document.createElement('div');
+blackKnight.classList.add('piece', 'blackKnight');
+var blackRook = document.createElement('div');
+blackRook.classList.add('piece', 'blackRook');
+var blackPawn = document.createElement('div');
+blackPawn.classList.add('piece', 'blackPawn');
+
 container.appendChild(chessBoard);
 container.appendChild(whiteKing);
