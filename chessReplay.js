@@ -18,7 +18,16 @@ for(rowIndex; rowIndex < chessBoardTileLength; ++rowIndex){
 
 var whiteKing = document.createElement('div');
 whiteKing.className = 'whiteKing';
-
+var whiteQueem = document.createElement('div');
+whiteQueen.className = 'whiteQueen';
+var whiteBishop = document.createElement('div');
+whiteBishop.className = 'whiteBishop';
+var whiteKnight = document.createElement('div');
+whiteKnight.className = 'whiteKnight';
+var whiteRook = document.createElement('div');
+whiteRook.className = 'whiteRook';
+var whitePawn = document.createElement('div');
+whitePawn.className = 'whitePawn';
 
 container.appendChild(chessBoard);
 container.appendChild(whiteKing);
