@@ -27,16 +27,13 @@ for(colorIndex; colorIndex < colors.length; ++colorIndex){
         pieceMap[colors[colorIndex] + pieceTypes[pieceIndex]] = {};
     }
 }
-console.log(JSON.stringify(pieceMap));
 function buildPiece(name){
+    console.log('building: ', name);
     var piece = document.createElement('div');
     piece.classList.add('piece', name);
     return piece;
 }
 
-for(var name in pieceMap){
-    container.appendChild(buildPiece(name));
-}
 container.appendChild(chessBoard);
 
 
@@ -168,10 +165,7 @@ var startingPeices = {
             column: 'h',
             row: 7
         }
-    }    
-};
-
-var startingPeices2 = {
+    }, 
     whiteKing:{
         color: 'white',
         type: 'King',
@@ -180,7 +174,7 @@ var startingPeices2 = {
             row: 1
         }
     },
-     whiteQueen:{
+    whiteQueen:{
         color: 'white',
         type: 'Queen',
         postion: {
@@ -188,7 +182,7 @@ var startingPeices2 = {
             row: 1
         }
     },
-     whiteKnight1:{
+    whiteKnight1:{
         color: 'white',
         type: 'Knight',
         postion: {
@@ -196,7 +190,7 @@ var startingPeices2 = {
             row: 1
         }
     },
-     whiteKnight2:{
+    whiteKnight2:{
         color: 'white',
         type: 'Knight',
         postion: {
@@ -204,7 +198,7 @@ var startingPeices2 = {
             row: 1
         }    
     },
-     whiteBishop1:{
+    whiteBishop1:{
         color: 'white',
         type: 'Bishop',
         postion: {
@@ -212,7 +206,7 @@ var startingPeices2 = {
             row: 1
         }    
     },
-     whiteBishop2:{
+    whiteBishop2:{
         color: 'white',
         type: 'Bishop',
         postion: {
@@ -220,7 +214,7 @@ var startingPeices2 = {
             row: 1
         }    
     },
-     whiteRook1:{
+    whiteRook1:{
         color: 'white',
         type: 'Rook',
         postion: {
@@ -229,7 +223,7 @@ var startingPeices2 = {
         }
 
     },
-     whiteRook2:{
+    whiteRook2:{
         color: 'white',
         type: 'Rook',
         postion: {
@@ -237,7 +231,7 @@ var startingPeices2 = {
             row: 1
         }
     },
-     whitePawn1:{
+    whitePawn1:{
         color: 'white',
         type: 'Pawn',
         postion: {
@@ -245,8 +239,8 @@ var startingPeices2 = {
             row: 2
         }
         
-     },
-     whitePawn2:{
+    },
+    whitePawn2:{
         color: 'white',
         type: 'Pawn',
         postion: {
@@ -254,8 +248,8 @@ var startingPeices2 = {
             row: 2
         }
         
-     },
-     whitePawn3:{
+    },
+    whitePawn3:{
         color: 'white',
         type: 'Pawn',
         postion: {
@@ -263,8 +257,8 @@ var startingPeices2 = {
             row: 2
         }
         
-     },
-     whitePawn4:{
+    },
+    whitePawn4:{
         color: 'white',
         type: 'Pawn',
         postion: {
@@ -272,8 +266,8 @@ var startingPeices2 = {
             row: 2
         }
         
-     },
-     whitePawn5:{
+    },
+    whitePawn5:{
         color: 'white',
         type: 'Pawn',
         postion: {
@@ -281,14 +275,18 @@ var startingPeices2 = {
             row: 2
         }
         
-     },
-     whitePawn6:{
+    },
+    whitePawn6:{
         color: 'white',
         type: 'Pawn',
         postion: {
             column: 'h',
             row: 2
         }
-        
-     },
+    }
 };
+
+for(var key in startingPeices){
+    var piece = startingPeices[key];
+    container.appendChild(buildPiece(piece.color + piece.type));
+}
