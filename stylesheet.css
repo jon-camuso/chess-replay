@@ -33,7 +33,6 @@ body {
     top:0px;
     left:0px;
 }
-
 .whiteKing {
     background-position: 0 0;
 }
@@ -49,9 +48,26 @@ body {
 .whiteRook {
      background-position: -360px 0;
 }
-
 .whitePawn {
      background-position: -450px 0;
+}
+.blackKing {
+    background-position: 0 -90px;
+}
+.blackQueen {
+     background-position: -90px -90px;
+}
+.blackBishop {
+     background-position: -180px -90px;
+}
+.blackKnight {
+     background-position: -270px -90px;
+}
+.blackRook {
+     background-position: -360px -90px;
+}
+.blackPawn {
+     background-position: -450px -90px;
 }
 
 
