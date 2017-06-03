@@ -41,6 +41,6 @@ var blackRook = document.createElement('div');
 blackRook.classList.add('piece', 'blackRook');
 var blackPawn = document.createElement('div');
 blackPawn.classList.add('piece', 'blackPawn');
-
+ 
 container.appendChild(chessBoard);
 container.appendChild(whiteKing);
